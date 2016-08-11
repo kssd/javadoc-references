@@ -59,7 +59,7 @@ If you have more than one paragraph in the doc comment, separate the paragraphs 
 Insert a blank comment line between the description and the list of tags, as shown.
 The first line that begins with an "@" character ends the description. There is only one description block per doc comment; you cannot continue the description following block tags.
 The last line contains the end-comment delimiter ( \*/) Note that unlike the begin-comment delimiter, the end-comment contains only a single asterisk.
-For more examples, see [Simple Examples](#Examples-of-Doc-Comments).
+For more examples, see [Simple Examples](#examples-of-doc-comments).
 
 So lines won't wrap, limit any doc-comment lines to 80 characters.
 
