@@ -1,6 +1,6 @@
 # Java 1.7 doc Style reference [Oracle-Reference](http://www.oracle.com/technetwork/java/javase/documentation/index-137868.html)
 
-+ [A Style Guide](#A-Style-Guide)
++ [A Style Guide](#a-style-guide)
   - Tag Conventions ( @tag)
   - Documenting Default Constructors
   - Documenting Exceptions with @throws Tag
@@ -154,7 +154,9 @@ You run it on source code and it generates a report describing what style and ta
         In the third case, if a method m() in a given class implements a method in an interface, the Javadoc tool will generate a subheading "Specified by" in the documentation for m(), with a link to the method it is implementing.
 
         In all three of these cases, if the method m() contains no doc comments or tags, the Javadoc tool will also copy the text of the method it is overriding or implementing to the generated documentation for m(). So if the documentation of the overridden or implemented method is sufficient, you do not need to add documentation for m(). If you add any documentation comment or tag to m(), the "Overrides" or "Specified by" subheading and link will still appear, but no text will be copied.
+
 ---
+
 # A Style Guide
 
 The following are useful tips and conventions for writing descriptions in doc comments.
